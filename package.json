@@ -1,0 +1,16 @@
+{
+  "name": "truffle-extract",
+  "author": "Brendan Asselstine brendan@pooltogether.us",
+  "version": "1.0.0",
+  "repository": "git@github.com:pooltogether/truffle-extract.git",
+  "description": "Extract all ABIs from truffle artifacts and output to a directory",
+  "main": "index.js",
+  "bin": {
+    "truffle-extract": "./index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2"
+  }
+}
